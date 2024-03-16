@@ -1,3 +1,12 @@
+"""
+Titulo: Algoritmo de Búsqueda en Profundidad (DFS)
+Autor: Ramiro Bueno Martínez
+Descripcion: Este script implementa el algoritmo de búsqueda en profundidad (DFS), una técnica de búsqueda no informada utilizada para recorrer grafos y árboles. El algoritmo comienza desde un nodo raíz y explora tan lejos como sea posible a lo largo de cada rama antes de retroceder.
+Fecha: 16/03/2024
+Revision: 1.01
+
+"""
+
 nodes = ["A", "B", "D", "E", "F", "H", "I", "J", "K", "Z"]
 
 # Creamos un diccionario para mantener un registro de qué nodos han sido descubiertos
