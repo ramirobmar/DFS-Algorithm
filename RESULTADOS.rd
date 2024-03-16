@@ -1,43 +1,43 @@
-## Búsqueda en Profundidad (DFS) - Resultados
+# Búsqueda en Profundidad (DFS) - Resultados
 
 ## Iteración 0:
-- **Frontera**: ['I', 'E', 'D']
+- **Frontera**: ['I', 'E', 'D'] (LIFO: 0)
 - **Nodos Expandidos**: ['A']
 
 En la primera iteración, partiendo del nodo inicial 'A', exploramos sus vecinos 'I', 'E' y 'D'. El nodo 'A' se marca como expandido.
 
 ## Iteración 1:
-- **Frontera**: ['I', 'E', 'J', 'I', 'B']
+- **Frontera**: ['I', 'E', 'J', 'I', 'B'] (LIFO: 4)
 - **Nodos Expandidos**: ['A', 'D']
 
 En la segunda iteración, el nodo 'D' se expande y se añaden a la frontera sus vecinos 'I', 'J' y 'B'.
 
 ## Iteración 2:
-- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'E']
+- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'E'] (LIFO: 5)
 - **Nodos Expandidos**: ['A', 'D', 'B']
 
 La frontera se expande aún más con los vecinos de 'E': 'I', 'F' y 'H'.
 
 ## Iteración 3:
-- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'F']
+- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'F'] (LIFO: 6)
 - **Nodos Expandidos**: ['A', 'D', 'B', 'E']
 
 La exploración continúa con los nodos 'F' y 'H' de la frontera.
 
 ## Iteración 4:
-- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'Z', 'H']
+- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'Z', 'H'] (LIFO: 7)
 - **Nodos Expandidos**: ['A', 'D', 'B', 'E', 'F']
 
 El nodo 'F' se expande y se descubre el nodo de destino 'Z', que se añade a la frontera.
 
 ## Iteración 5:
-- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'Z', 'Z', 'K']
+- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'Z', 'Z', 'K'] (LIFO: 8)
 - **Nodos Expandidos**: ['A', 'D', 'B', 'E', 'F', 'H']
 
 La frontera incluye ahora los vecinos del nodo 'H', incluyendo nuevamente 'Z'.
 
 ## Iteración 6:
-- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'Z', 'Z']
+- **Frontera**: ['I', 'E', 'J', 'I', 'F', 'H', 'Z', 'Z'] (LIFO: 8)
 - **Nodos Expandidos**: ['A', 'D', 'B', 'E', 'F', 'H', 'K']
 
 En esta etapa, el nodo 'H' se expande y 'K' se añade a la frontera.
