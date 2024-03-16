@@ -1,4 +1,4 @@
-# Búsqueda en Profundidad (DFS) - Resultados
+## Búsqueda en Profundidad (DFS) - Resultados
 
 ## Iteración 0:
 - **Frontera**: ['I', 'E', 'D']
